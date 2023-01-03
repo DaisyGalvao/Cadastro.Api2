@@ -1,6 +1,5 @@
 ﻿using Cadastro.Api2.Models;
 using Dapper;
-using System;
 using System.Data.SqlClient;
 using System.Linq;
 
@@ -54,11 +53,6 @@ namespace Cadastro.Api2.Repositories
 
                 return id;
             }
-        }
-
-        public void Teste()
-        {
-            Console.WriteLine("Teste...");
         }
     }
 }
